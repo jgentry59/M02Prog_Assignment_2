@@ -1,0 +1,35 @@
+<mxfile host="app.diagrams.net" modified="2023-09-04T21:53:54.104Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="XLmvgIXYbWhDTlOpWFdH" version="21.7.2" type="device">
+  <diagram name="Page-1" id="TBTISmpxg6kmOhOmgJSh">
+    <mxGraphModel dx="802" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fsEN6LPCdnU8EfGoAjpo-1" value="Triangle" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="380" width="200" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="fsEN6LPCdnU8EfGoAjpo-4" value="- side1: double&lt;br&gt;- side2: double&lt;br&gt;- side3: double&lt;br&gt;&lt;br&gt;+Triangle()&lt;br&gt;+Triangle(side1: double, side2: double, side3: double)&lt;br&gt;&lt;br&gt;+toString(): String&lt;br&gt;+getSide1(): double&lt;br&gt;+setSide1(side1: double): void&lt;br&gt;+getSide2(): double&lt;br&gt;+getSide3(): double&lt;br&gt;+setside3(side3: double): void&lt;br&gt;+getArea(): double&lt;br&gt;+getPerimeter(): double&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fsEN6LPCdnU8EfGoAjpo-1">
+          <mxGeometry y="26" width="200" height="274" as="geometry" />
+        </mxCell>
+        <mxCell id="fsEN6LPCdnU8EfGoAjpo-5" value="GeometricObject" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="80" width="290" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="fsEN6LPCdnU8EfGoAjpo-6" value="- color: String&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fsEN6LPCdnU8EfGoAjpo-5">
+          <mxGeometry y="26" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fsEN6LPCdnU8EfGoAjpo-7" value="- filled: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fsEN6LPCdnU8EfGoAjpo-5">
+          <mxGeometry y="52" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fsEN6LPCdnU8EfGoAjpo-8" value="+GeometricObject()&lt;br&gt;+GeometricObject(color: String, filled: boolean&lt;br&gt;+toString(): String&lt;br&gt;+setFilled(filled: boolean): void&lt;br&gt;+isFilled(): boolean&lt;br&gt;+getColor(): String&lt;br&gt;+setColor(color: String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fsEN6LPCdnU8EfGoAjpo-5">
+          <mxGeometry y="78" width="290" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="fsEN6LPCdnU8EfGoAjpo-9" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fsEN6LPCdnU8EfGoAjpo-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="480" y="290" as="sourcePoint" />
+            <mxPoint x="495" y="380" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
